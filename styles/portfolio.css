@@ -70,3 +70,6 @@ p {
   font-weight: 400;
   line-height: 30px;
 }
+.project-description {
+  padding: 120px 60px 0;
+}
