@@ -1,31 +1,38 @@
+:root {
+  --main-branding-color: #6c63ff;
+  --second-branding-color: #f9f7fe;
+  --third-branding-color: #ffffff;
+  --fourth-braning-color: #272142;
+  --heading-font: "Playfair Display", serif;
+  --second-font: "Poppins", sans-serif;
+}
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font);
   font-weight: bold;
   font-size: 96px;
 }
 h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--second-font);
   font-weight: bold;
   margin: 0;
 }
 .hero {
-  background-color: #f9f7fe;
+  background-color: var(--second-branding-color);
   text-align: center;
   padding: 160px 20px;
 }
-
 .hero h3 {
   font-size: 36px;
 }
 .hero h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--second-font);
   font-size: 24px;
   font-weight: normal;
-  color: #272142;
+  color: var(--fourth-braning-color);
 }
 .btn {
-  background-color: #6c63ff;
-  color: #ffffff;
+  background-color: var(--main-branding-color);
+  color: var(--third-branding-color);
   font-size: 18px;
   border-radius: 4px;
   padding: 18px 30px;
@@ -33,32 +40,32 @@ h3 {
   line-height: 27px;
 }
 .btn:hover {
-  background-color: #6c63ff;
-  color: #ffffff;
+  background-color: var(--main-branding-color);
+  color: var(--third-branding-color);
 }
-.branding-outline {
+.btn-branding-outline {
   font-size: 18px;
   border: 1px solid;
   border-radius: 4px;
   padding: 18px 30px;
   line-height: 27px;
-  background-color: #ffffff;
-  color: #6c63ff;
-  border-color: #6c63ff;
+  background-color: var(--third-branding-color);
+  color: var(--main-branding-color);
+  border-color: var(--main-branding-color);
 }
 .text-center {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--second-font);
   font-size: 18px;
   line-height: 27px;
-  color: #272142;
+  color: var(--fourth-braning-color);
 }
-.main-title {
-  font-family: "Playfair Display", serif;
+h2 {
+  font-family: var(--heading-font);
   font-weight: 700;
   font-size: 64px;
 }
-.main-content {
-  font-family: "Poppins", sans-serif;
+p {
+  font-family: var(--second-font);
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
