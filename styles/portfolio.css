@@ -85,4 +85,7 @@ p {
   img {
     display: none;
   }
+  .hero {
+    padding: 40px;
+  }
 }
