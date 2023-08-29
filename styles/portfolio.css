@@ -86,18 +86,22 @@ p {
   line-height: 80px;
 }
 .about-description p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
+}
+.about-section-content {
+  margin: 50px;
 }
 @media (max-width: 992px) {
   .col-6 {
     width: 100%;
   }
-  .project-description {
+  .project-description,
+  .about-description {
     padding: 0;
     text-align: center;
   }
-  img {
+  .home img {
     display: none;
   }
   .hero {
