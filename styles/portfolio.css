@@ -8,7 +8,8 @@
 }
 h2,
 h3,
-p {
+p,
+ul {
   font-family: var(--second-font);
 }
 h1 {
@@ -103,6 +104,32 @@ p {
 .section-headline p {
   font-size: 18px;
   line-height: 27px;
+}
+nav {
+  margin: 15px;
+}
+nav img {
+  max-width: 150px;
+  max-height: 50px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  font-size: 16px;
+  line-height: 45px;
+  list-style: none;
+  text-decoration: none;
+  color: var(--fourth-braning-color);
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+}
+nav a:hover {
+  color: var(--main-branding-color);
 }
 @media (max-width: 992px) {
   .col-6 {
