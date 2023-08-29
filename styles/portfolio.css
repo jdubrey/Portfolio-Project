@@ -122,13 +122,14 @@ nav li {
   line-height: 45px;
   list-style: none;
   text-decoration: none;
-  color: var(--fourth-braning-color);
   margin-left: 15px;
 }
 nav a {
   text-decoration: none;
+  color: var(--fourth-braning-color);
 }
-nav a:hover {
+nav a:hover,
+li.active {
   color: var(--main-branding-color);
 }
 @media (max-width: 992px) {
@@ -145,5 +146,12 @@ nav a:hover {
   }
   .hero {
     padding: 40px;
+  }
+  .logo {
+    display: none;
+  }
+  nav ul {
+    width: 100%;
+    text-align: center;
   }
 }
