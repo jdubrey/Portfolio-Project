@@ -73,31 +73,41 @@ p {
 .project-description {
   padding: 120px 60px 0;
 }
-.about-description {
+.content-container {
   padding: 160px 20px;
 }
-.about-description h2 {
+.content-container h2 {
   font-family: var(--second-font);
   font-size: 18px;
   line-height: 27px;
 }
-.about-description h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-description p {
+.content-container p {
   font-size: 16px;
   line-height: 30px;
 }
-.about-section-content {
+.content {
   margin: 50px;
+}
+.content h3 {
+  font-size: 24px;
+  font-family: var(--second-font);
+  line-height: 36px;
+}
+.content p {
+  font-size: 14px;
+  font-family: var(--second-font);
+  line-height: 21px;
 }
 @media (max-width: 992px) {
   .col-6 {
     width: 100%;
   }
   .project-description,
-  .about-description {
+  .content-container {
     padding: 0;
     text-align: center;
   }
