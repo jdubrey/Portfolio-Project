@@ -151,6 +151,23 @@ li.active {
   font-weight: 400px;
   line-height: 1.5;
 }
+.email:hover {
+  color: var(--main-branding-color);
+}
+.contact-btn {
+  padding-left: 160px;
+}
+.social-links a {
+  color: var(--main-branding-color);
+  background-color: var(--second-branding-color);
+  margin: 0 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+.social-links {
+  margin: 60px 0;
+}
 @media (max-width: 992px) {
   .col-6 {
     width: 100%;
@@ -172,5 +189,19 @@ li.active {
   nav ul {
     width: 100%;
     text-align: center;
+  }
+  .footer {
+    margin-top: 70px;
+    padding: 30px;
+  }
+  .footer h1 {
+    display: none;
+  }
+  .footer p {
+    font-size: 28px;
+    text-align: center;
+  }
+  .contact-btn {
+    display: none;
   }
 }
