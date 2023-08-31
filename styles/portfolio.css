@@ -204,4 +204,14 @@ li.active {
   .contact-btn {
     display: none;
   }
+  .content-container h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .second-row {
+    margin-bottom: 24px;
+  }
+  .headshot {
+    margin-bottom: 20px;
+  }
 }
